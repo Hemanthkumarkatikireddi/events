@@ -1,0 +1,86 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.events-container {
+  height: 100vh;
+  display: flex;
+}
+.heading {
+  color: #ffff;
+  font-size: 30px;
+  font-family: Roboto;
+  margin: 10px 50px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.list-of-Events {
+  width: 50%;
+  padding: 20px;
+  background-color: #323f4b;
+}
+.event-status-container {
+  width: 50%;
+  display: flex;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #64748b;
+  justify-content: center;
+  padding: 20px;
+}
+@media screen and (min-width: 500px) {
+  .list-of-Events {
+    width: 60%;
+  }
+  .event-status-container {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .list-of-Events {
+    width: 50%;
+  }
+  .event-status-container {
+    width: 50%;
+  }
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.register-img {
+  height: 300px;
+}
+.ActiveEvent-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.status-container-heading {
+  font-size: 25px;
+  margin: 15px 0px;
+}
+.status-container-description {
+  font-size: 16px;
+  margin: 15px 0px;
+  font-weight: 500;
+}
+.btn {
+  width: 150px;
+  color: #fff;
+  margin: 15px 0px;
+  font-family: Roboto;
+  background-color: #0967d2;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}

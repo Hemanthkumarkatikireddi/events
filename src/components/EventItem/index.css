@@ -1,0 +1,141 @@
+/* Write your CSS here */
+.event-item-container {
+  display: flex;
+}
+.event-img {
+  height: 140px;
+}
+
+.event-img:hover {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
+.event-items {
+  margin: 10px 0px;
+}
+.event-title {
+  font-size: 15px;
+  font-family: Roboto;
+  color: #ffff;
+  margin: 1px 0px;
+}
+.event-location {
+  font-family: Roboto;
+  color: #ffff;
+  font-size: 12px;
+  margin: 1px 0px;
+}
+.event-btn {
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 300px) {
+  .event-img {
+    height: 50px;
+  }
+  .event-title {
+    font-size: 8px;
+  }
+  .event-location {
+    font-size: 7px;
+  }
+  .register-img {
+    height: 50px;
+  }
+  .initial-event {
+    font-size: 14px;
+  }
+  .status-container-heading {
+    font-size: 14px;
+  }
+  .status-container-description {
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .event-img {
+    height: 80px;
+  }
+  .event-title {
+    font-size: 10px;
+  }
+  .event-location {
+    font-size: 8px;
+  }
+  .register-img {
+    height: 60px;
+  }
+  .initial-event {
+    font-size: 15px;
+  }
+  .status-container-heading {
+    font-size: 15px;
+  }
+  .status-container-description {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 612px) {
+  .event-img {
+    height: 95px;
+  }
+  .event-title {
+    font-size: 15px;
+  }
+  .event-location {
+    font-size: 12px;
+  }
+  .register-img {
+    height: 70px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .event-img {
+    height: 110px;
+  }
+  .register-img {
+    height: 100px;
+  }
+  .initial-event {
+    font-size: 18px;
+  }
+  .status-container-heading {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .event-img {
+    height: 120px;
+  }
+  .register-img {
+    height: 120px;
+  }
+  .initial-event {
+    font-size: 20px;
+  }
+  .status-container-heading {
+    font-size: 20px;
+  }
+  .status-container-description {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .event-img {
+    height: 140px;
+  }
+  .register-img {
+    height: 140px;
+  }
+  .initial-event {
+    font-size: 25px;
+  }
+  .status-container-heading {
+    font-size: 25px;
+  }
+  .status-container-description {
+    font-size: 16px;
+  }
+}

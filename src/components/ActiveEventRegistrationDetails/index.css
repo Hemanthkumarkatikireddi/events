@@ -1,0 +1,6 @@
+/* Write your CSS here */
+.ActiveEvent-container {
+  display: flex;
+
+  justify-content: center;
+}
